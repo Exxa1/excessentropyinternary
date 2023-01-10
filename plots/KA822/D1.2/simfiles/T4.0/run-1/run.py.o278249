@@ -1,0 +1,189 @@
+CUDA: node=bead53 device=2 name="NVIDIA GeForce RTX 2080 Ti"
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+potLJ_12_6_smooth_2_4: Sigma = 1, Epsilon = 1, Rcut = 2.5.
+potLJ_12_6_smooth_2_4: Sigma = 0.8, Epsilon = 1.5, Rcut = 2.5.
+Applying Newton's third law to set interaction 1,0 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.9, Epsilon = 1.25, Rcut = 2.5.
+Applying Newton's third law to set interaction 2,0 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.88, Epsilon = 0.5, Rcut = 2.5.
+potLJ_12_6_smooth_2_4: Sigma = 0.84, Epsilon = 1, Rcut = 2.5.
+Applying Newton's third law to set interaction 2,1 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.94, Epsilon = 0.75, Rcut = 2.5.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+[Info] Initializing IntegratorNVT. time step:0.001; target temperature:4; relaxation time:0.2; thermostat state:0
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):    192
+Threads per particle (tp):    3
+Number of blocks:             63
+Virtual particles:           12096
+Unused virtual particles:     96
+Threads per block:            576
+Number of threads:           36288
+
+Updated to 35997 degrees of freedom.
+Creating directory ./TrajectoryFiles
+Finished writing restart nr.    0
+Finished writing energies nr.    0
+Finished writing trajectory nr.    0
+Finished writing restart nr.   10
+Finished writing energies nr.   10
+Finished writing trajectory nr.   10
+Finished writing restart nr.   20
+Finished writing energies nr.   20
+Finished writing trajectory nr.   20
+Finished writing restart nr.   30
+Finished writing energies nr.   30
+Finished writing trajectory nr.   30
+Finished writing restart nr.   40
+Finished writing energies nr.   40
+Finished writing trajectory nr.   40
+Finished writing restart nr.   50
+Finished writing energies nr.   50
+Finished writing trajectory nr.   50
+Finished writing restart nr.   60
+Finished writing energies nr.   60
+Finished writing trajectory nr.   60
+Finished writing restart nr.   70
+Finished writing energies nr.   70
+Finished writing trajectory nr.   70
+Finished writing restart nr.   80
+Finished writing energies nr.   80
+Finished writing trajectory nr.   80
+Finished writing restart nr.   90
+Finished writing energies nr.   90
+Finished writing trajectory nr.   90
+Total line count: 102400
+quantity, mean value, variance, standard deviation
+ke	      5.9995	  0.00233657	   0.0483381
+pe	    -1.63922	  0.00131141	   0.0362134
+p	     31.2811	    0.050341	    0.224368
+T	           4	  0.00103865	   0.0322281
+Etot	     4.36028	  0.00410385	   0.0640613
+W	     22.0676	   0.0323499	    0.179861
+Particles of type 0: 8000
+Particles of type 1: 2000
+Particles of type 2: 2000
+
+Reading block: 0 10 20 30 40 50 60 70 80 90 
+Autotune file not found
+Running 10000 steps of pre-optimization
+First, default parameters (or as set by user),  nsteps=2666
+NB_method, pb, tp, skin, time (ms/step), MATS
+default 64 1 0.5000 0.0928 129.278
+Testing NB_method n2, nsteps=2666
+Time 0.1358; skin 0.7459; MATS 88.369
+Testing NB_method sort, nsteps=2666
+Time 0.0928; skin 0.5000; MATS 129.259
+Initial result: sort is fastest
+Including sort in phase-2 optimization
+Optimize pb, tp, nSteps=2000
+pb, tp, skin, time
+32 1 0.45242 0.09194
+32 2 0.50000 0.07456
+32 3 0.55259 0.07274
+32 4 0.55259 0.07288
+32 5 0.55259 0.07316
+32 6 0.50000 0.07498
+Best time for this pb: 0.0727
+48 1 0.45242 0.09402
+48 2 0.45242 0.07592
+48 3 0.55259 0.07299
+48 4 0.55259 0.07359
+48 5 0.50000 0.07408
+48 6 0.55259 0.07429
+Best time for this pb: 0.0730
+64 1 0.45242 0.09248
+64 2 0.50000 0.07433
+64 3 0.55259 0.07274
+64 4 0.55259 0.07277
+64 5 0.55259 0.07293
+64 6 0.55259 0.07268
+64 7 0.55259 0.07283
+64 8 0.55259 0.07285
+64 9 0.45242 0.07616
+Best time for this pb: 0.0727
+96 1 0.45242 0.09195
+96 2 0.50000 0.07445
+96 3 0.55259 0.07276
+96 4 0.61070 0.07279
+96 5 0.55259 0.07310
+96 6 0.55259 0.07300
+Best time for this pb: 0.0728
+128 1 0.55259 0.09732
+128 2 0.67493 0.07979
+128 3 0.74591 0.07778
+128 4 0.74591 0.07829
+128 5 0.74591 0.08618
+Best time for this pb: 0.0778
+192 1 0.50000 0.09124
+192 2 0.55259 0.07401
+192 3 0.61070 0.07250
+192 4 0.61070 0.07275
+192 5 0.55259 0.07335
+Too many threads per block (pb*tp>maxthreads) (Sample::SetNumberOfParticles)
+... breaking out of tp loop
+Best time for this pb: 0.0725
+End of OptimizePB_TP, best parameters are (sk/pb/tp) 0.611, 192, 3
+Running optimized parameters for this NB_method, 2666 steps 
+opt_time, sort: 0.0724
+Ratio of time taken for optimized versus default parameters 0.7800 
+Final result: NB method sort is fastest
+Optimal pb, tp: 192 3
+Time taken for optimizing 41.44 seconds
+Setting optimal technical parameters
+pb = 192
+tp = 3
+skin = 0.610701379080085
+NB_method = sort
+sort_interval = 0
+sorting_scheme = XY
+Output blockSize=262144, numBlocks=101
+Size of the last incomplete block 0

@@ -1,0 +1,283 @@
+CUDA: node=bead43 device=0 name="NVIDIA GeForce GTX 1080"
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+potLJ_12_6_smooth_2_4: Sigma = 1, Epsilon = 1, Rcut = 2.5.
+potLJ_12_6_smooth_2_4: Sigma = 0.8, Epsilon = 1.5, Rcut = 2.5.
+Applying Newton's third law to set interaction 1,0 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.9, Epsilon = 1.25, Rcut = 2.5.
+Applying Newton's third law to set interaction 2,0 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.88, Epsilon = 0.5, Rcut = 2.5.
+potLJ_12_6_smooth_2_4: Sigma = 0.84, Epsilon = 1, Rcut = 2.5.
+Applying Newton's third law to set interaction 2,1 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.94, Epsilon = 0.75, Rcut = 2.5.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+[Info] Initializing IntegratorNVT. time step:0.001; target temperature:0.5; relaxation time:0.2; thermostat state:0
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):    128
+Threads per particle (tp):    1
+Number of blocks:             94
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:            128
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+Creating directory ./TrajectoryFiles
+Finished writing restart nr.    0
+Finished writing energies nr.    0
+Finished writing trajectory nr.    0
+Finished writing restart nr.   10
+Finished writing energies nr.   10
+Finished writing trajectory nr.   10
+Finished writing restart nr.   20
+Finished writing energies nr.   20
+Finished writing trajectory nr.   20
+Finished writing restart nr.   30
+Finished writing energies nr.   30
+Finished writing trajectory nr.   30
+Finished writing restart nr.   40
+Finished writing energies nr.   40
+Finished writing trajectory nr.   40
+Finished writing restart nr.   50
+Finished writing energies nr.   50
+Finished writing trajectory nr.   50
+Finished writing restart nr.   60
+Finished writing energies nr.   60
+Finished writing trajectory nr.   60
+Finished writing restart nr.   70
+Finished writing energies nr.   70
+Finished writing trajectory nr.   70
+Finished writing restart nr.   80
+Finished writing energies nr.   80
+Finished writing trajectory nr.   80
+Finished writing restart nr.   90
+Finished writing energies nr.   90
+Finished writing trajectory nr.   90
+Finished writing restart nr.  100
+Finished writing energies nr.  100
+Finished writing trajectory nr.  100
+Finished writing restart nr.  110
+Finished writing energies nr.  110
+Finished writing trajectory nr.  110
+Finished writing restart nr.  120
+Finished writing energies nr.  120
+Finished writing trajectory nr.  120
+Finished writing restart nr.  130
+Finished writing energies nr.  130
+Finished writing trajectory nr.  130
+Finished writing restart nr.  140
+Finished writing energies nr.  140
+Finished writing trajectory nr.  140
+Finished writing restart nr.  150
+Finished writing energies nr.  150
+Finished writing trajectory nr.  150
+Finished writing restart nr.  160
+Finished writing energies nr.  160
+Finished writing trajectory nr.  160
+Finished writing restart nr.  170
+Finished writing energies nr.  170
+Finished writing trajectory nr.  170
+Finished writing restart nr.  180
+Finished writing energies nr.  180
+Finished writing trajectory nr.  180
+Finished writing restart nr.  190
+Finished writing energies nr.  190
+Finished writing trajectory nr.  190
+Finished writing restart nr.  200
+Finished writing energies nr.  200
+Finished writing trajectory nr.  200
+Finished writing restart nr.  210
+Finished writing energies nr.  210
+Finished writing trajectory nr.  210
+Finished writing restart nr.  220
+Finished writing energies nr.  220
+Finished writing trajectory nr.  220
+Finished writing restart nr.  230
+Finished writing energies nr.  230
+Finished writing trajectory nr.  230
+Finished writing restart nr.  240
+Finished writing energies nr.  240
+Finished writing trajectory nr.  240
+Finished writing restart nr.  250
+Finished writing energies nr.  250
+Finished writing trajectory nr.  250
+Finished writing restart nr.  260
+Finished writing energies nr.  260
+Finished writing trajectory nr.  260
+Finished writing restart nr.  270
+Finished writing energies nr.  270
+Finished writing trajectory nr.  270
+Finished writing restart nr.  280
+Finished writing energies nr.  280
+Finished writing trajectory nr.  280
+Finished writing restart nr.  290
+Finished writing energies nr.  290
+Finished writing trajectory nr.  290
+Finished writing restart nr.  300
+Finished writing energies nr.  300
+Finished writing trajectory nr.  300
+Finished writing restart nr.  310
+Finished writing energies nr.  310
+Finished writing trajectory nr.  310
+Finished writing restart nr.  320
+Finished writing energies nr.  320
+Finished writing trajectory nr.  320
+Finished writing restart nr.  330
+Finished writing energies nr.  330
+Finished writing trajectory nr.  330
+Finished writing restart nr.  340
+Finished writing energies nr.  340
+Finished writing trajectory nr.  340
+Finished writing restart nr.  350
+Finished writing energies nr.  350
+Finished writing trajectory nr.  350
+Finished writing restart nr.  360
+Finished writing energies nr.  360
+Finished writing trajectory nr.  360
+Finished writing restart nr.  370
+Finished writing energies nr.  370
+Finished writing trajectory nr.  370
+Finished writing restart nr.  380
+Finished writing energies nr.  380
+Finished writing trajectory nr.  380
+Finished writing restart nr.  390
+Finished writing energies nr.  390
+Finished writing trajectory nr.  390
+Total line count: 409600
+quantity, mean value, variance, standard deviation
+ke	    0.749944	 3.12767e-05	  0.00559256
+pe	    -5.59973	 4.17578e-05	  0.00646203
+p	     2.81391	  0.00202101	   0.0449556
+T	    0.500004	 1.39031e-05	  0.00372868
+Etot	    -4.84979	 7.27793e-05	  0.00853108
+W	     1.84492	  0.00139059	   0.0372906
+Particles of type 0: 8000
+Particles of type 1: 2000
+Particles of type 2: 2000
+
+Reading block: 0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350 360 370 380 390 
+Autotune file not found
+Running 10000 steps of pre-optimization
+First, default parameters (or as set by user),  nsteps=2666
+NB_method, pb, tp, skin, time (ms/step), MATS
+default 64 1 0.5000 0.0970 123.685
+Testing NB_method n2, nsteps=2666
+Time 0.1073; skin 0.6107; MATS 111.884
+Testing NB_method sort, nsteps=2666
+Time 0.0903; skin 0.4094; MATS 132.908
+Initial result: sort is fastest
+Including n2 in phase-2 optimization
+Optimize pb, tp, nSteps=2000
+pb, tp, skin, time
+32 1 0.61070 0.10762
+32 2 0.55259 0.12123
+Best time for this pb: 0.1076
+48 1 0.55259 0.11465
+48 2 0.55259 0.12109
+Best time for this pb: 0.1147
+64 1 0.45242 0.10662
+64 2 0.45242 0.11716
+Best time for this pb: 0.1066
+96 1 0.45242 0.10945
+96 2 0.45242 0.12050
+Best time for this pb: 0.1094
+128 1 0.50000 0.10503
+128 2 0.55259 0.11323
+Best time for this pb: 0.1050
+192 1 0.55259 0.11041
+192 2 0.55259 0.12425
+Best time for this pb: 0.1104
+End of OptimizePB_TP, best parameters are (sk/pb/tp) 0.500, 128, 1
+Trying different sorting schemes, nSteps=5000
+Sort interval: 200
+none 128 1 0.1062 112.9542
+X 128 1 0.1142 105.0586
+XY 128 1 0.1120 107.1302
+XYZ 128 1 0.1106 108.5310
+Chosen sorting scheme is none
+Running 2666 steps to find time for no (external) sorting
+opt_time, n2: 0.1095
+Including sort in phase-2 optimization
+Optimize pb, tp, nSteps=2000
+pb, tp, skin, time
+32 1 0.37041 0.09235
+32 2 0.27441 0.10336
+Best time for this pb: 0.0923
+48 1 0.33516 0.09346
+48 2 0.27441 0.10440
+Best time for this pb: 0.0935
+64 1 0.24829 0.08853
+64 2 0.27441 0.10379
+Best time for this pb: 0.0885
+96 1 0.24829 0.08904
+96 2 0.24829 0.10551
+Best time for this pb: 0.0890
+128 1 0.27441 0.08744
+128 2 0.22466 0.09878
+Best time for this pb: 0.0874
+192 1 0.24829 0.09006
+192 2 0.27441 0.10548
+Best time for this pb: 0.0901
+End of OptimizePB_TP, best parameters are (sk/pb/tp) 0.274, 128, 1
+Running optimized parameters for this NB_method, 2666 steps 
+opt_time, sort: 0.0881
+Ratio of time taken for optimized versus default parameters 0.9080 
+Final result: NB method sort is fastest
+Optimal pb, tp: 128 1
+Time taken for optimizing 40.98 seconds
+Setting optimal technical parameters
+pb = 128
+tp = 1
+skin = 0.2744058180470131
+NB_method = sort
+sort_interval = 0
+sorting_scheme = XY
+Output blockSize=262144, numBlocks=401
+Size of the last incomplete block 0

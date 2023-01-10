@@ -1,0 +1,162 @@
+CUDA: node=bead45 device=2 name="NVIDIA GeForce GTX 1080"
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+potLJ_12_6_smooth_2_4: Sigma = 1, Epsilon = 1, Rcut = 2.5.
+potLJ_12_6_smooth_2_4: Sigma = 0.8, Epsilon = 1.5, Rcut = 2.5.
+Applying Newton's third law to set interaction 1,0 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.9, Epsilon = 1.25, Rcut = 2.5.
+Applying Newton's third law to set interaction 2,0 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.88, Epsilon = 0.5, Rcut = 2.5.
+potLJ_12_6_smooth_2_4: Sigma = 0.84, Epsilon = 1, Rcut = 2.5.
+Applying Newton's third law to set interaction 2,1 (label=potLJ_12_6_smooth_2_4)
+potLJ_12_6_smooth_2_4: Sigma = 0.94, Epsilon = 0.75, Rcut = 2.5.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     64
+Threads per particle (tp):    1
+Number of blocks:            188
+Virtual particles:           12032
+Unused virtual particles:     32
+Threads per block:             64
+Number of threads:           12032
+
+Updated to 35997 degrees of freedom.
+[Info] Initializing IntegratorNVT. time step:0.001; target temperature:4; relaxation time:0.2; thermostat state:0
+
+Setting number of particles and allocating on host and device:
+Number of particles (N):     12000
+Particles per block (pb):     32
+Threads per particle (tp):    1
+Number of blocks:            375
+Virtual particles:           12000
+Unused virtual particles:      0
+Threads per block:             32
+Number of threads:           12000
+
+Updated to 35997 degrees of freedom.
+Creating directory ./TrajectoryFiles
+Finished writing restart nr.    0
+Finished writing energies nr.    0
+Finished writing trajectory nr.    0
+Finished writing restart nr.   10
+Finished writing energies nr.   10
+Finished writing trajectory nr.   10
+Finished writing restart nr.   20
+Finished writing energies nr.   20
+Finished writing trajectory nr.   20
+Finished writing restart nr.   30
+Finished writing energies nr.   30
+Finished writing trajectory nr.   30
+Finished writing restart nr.   40
+Finished writing energies nr.   40
+Finished writing trajectory nr.   40
+Finished writing restart nr.   50
+Finished writing energies nr.   50
+Finished writing trajectory nr.   50
+Finished writing restart nr.   60
+Finished writing energies nr.   60
+Finished writing trajectory nr.   60
+Finished writing restart nr.   70
+Finished writing energies nr.   70
+Finished writing trajectory nr.   70
+Finished writing restart nr.   80
+Finished writing energies nr.   80
+Finished writing trajectory nr.   80
+Finished writing restart nr.   90
+Finished writing energies nr.   90
+Finished writing trajectory nr.   90
+Total line count: 102400
+quantity, mean value, variance, standard deviation
+ke	     5.99936	  0.00199845	    0.044704
+pe	    -1.63908	  0.00113642	   0.0337108
+p	     31.2819	   0.0411298	    0.202805
+T	     3.99991	 0.000888347	   0.0298052
+Etot	     4.36027	  0.00314325	   0.0560647
+W	     22.0683	   0.0276446	    0.166267
+Particles of type 0: 8000
+Particles of type 1: 2000
+Particles of type 2: 2000
+
+Reading block: 0 10 20 30 40 50 60 70 80 90 
+Autotune file not found
+Running 10000 steps of pre-optimization
+First, default parameters (or as set by user),  nsteps=2666
+NB_method, pb, tp, skin, time (ms/step), MATS
+default 64 1 0.5000 0.1170 102.560
+Testing NB_method n2, nsteps=2666
+Time 0.1533; skin 0.7459; MATS 78.297
+Testing NB_method sort, nsteps=2666
+Time 0.1167; skin 0.4094; MATS 102.855
+Initial result: sort is fastest
+Including sort in phase-2 optimization
+Optimize pb, tp, nSteps=2000
+pb, tp, skin, time
+32 1 0.45242 0.11429
+32 2 0.50000 0.12977
+Best time for this pb: 0.1143
+48 1 0.50000 0.11935
+48 2 0.45242 0.13006
+Best time for this pb: 0.1193
+64 1 0.45242 0.11561
+64 2 0.50000 0.12964
+Best time for this pb: 0.1156
+96 1 0.40937 0.11597
+96 2 0.33516 0.12893
+Best time for this pb: 0.1160
+128 1 0.33516 0.11628
+128 2 0.30327 0.12433
+Best time for this pb: 0.1163
+192 1 0.30327 0.11999
+192 2 0.30327 0.13346
+Best time for this pb: 0.1200
+End of OptimizePB_TP, best parameters are (sk/pb/tp) 0.452, 32, 1
+Running optimized parameters for this NB_method, 2666 steps 
+opt_time, sort: 0.1148
+Ratio of time taken for optimized versus default parameters 0.9815 
+Final result: NB method sort is fastest
+Optimal pb, tp: 32 1
+Time taken for optimizing 25.63 seconds
+Setting optimal technical parameters
+pb = 32
+tp = 1
+skin = 0.4524187090179798
+NB_method = sort
+sort_interval = 0
+sorting_scheme = XY
+Output blockSize=262144, numBlocks=101
+Size of the last incomplete block 0
